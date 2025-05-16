@@ -6,7 +6,7 @@
 
 
 body {
-  font-family: font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #000;
   color: #fff;
   line-height: 1.5;
@@ -15,7 +15,6 @@ img {
   max-width: 100%;
   height: auto;
 }
-
 
 header {
   background-color: #000;
@@ -39,6 +38,7 @@ header {
 .menu ul {
   list-style: none;
   display: flex;
+  flex-direction: row;
   gap: 20px;
 }
 
@@ -93,7 +93,12 @@ header {
   font-size: 24px;
   color: #c4c4c4;
 }
-
+.box2 p{
+  font-size: 16px;
+  }
+.box3 p{
+  font-size: 20px;
+}
 
 .conteudo,
 .conteudo1 {
