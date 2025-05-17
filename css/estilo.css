@@ -96,6 +96,11 @@ header {
 .box2 p{
   font-size: 16px;
   }
+.box2 h2{
+  font-family: "Inter";
+  font-weight: 400;
+  font-style: italic;
+ }
 .box3 p{
   font-size: 20px;
 }
@@ -126,7 +131,10 @@ p {
 
 .destaque {
   color: #fff;
+  font-family:"Inter" ;
   font-weight: bold;
+  font-size: 60px; 
+  
 }
 
 
