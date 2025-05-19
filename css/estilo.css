@@ -209,8 +209,8 @@ p {
   text-decoration: none;
   font-size: 14px;
   margin: 0 auto;
- margin-bottom: 15px;
- padding: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
  
 }
 
@@ -235,7 +235,7 @@ p {
   }
 
   .menu ul {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 10px;
   }
@@ -246,6 +246,9 @@ p {
     flex-direction: column;
     padding: 15px;
     text-align: center;
+  }
+  .box3{
+    flex-direction: column-reverse;
   }
 
   .conteudo,
